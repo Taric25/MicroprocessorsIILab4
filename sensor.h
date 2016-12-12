@@ -1,4 +1,4 @@
-/*--------------- lab4thread.c ---------------
+/*--------------- sensor.h ---------------
 by:	Mr. Ryan D Aldrich
 	Mr. Taric S Alani
 	Mr. John A Nicholson
