@@ -1,0 +1,364 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F18857 ]
+[d frameptr 6 ]
+"109 C:\Users\johnn\Desktop\Lab2Johns\mcc_generated_files/adcc.c
+[e E13465 . `uc
+channel_ANA0 0
+channel_VSS 60
+channel_Temp 61
+channel_DAC1 62
+channel_FVR 63
+]
+"137 C:\Users\johnn\Desktop\Lab2Johns\main.c
+[e E13470 . `uc
+channel_ANA0 0
+channel_VSS 60
+channel_Temp 61
+channel_DAC1 62
+channel_FVR 63
+]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.38\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 1 0 ]
+"39
+[v _memcpyee memcpyee `(v  1 e 1 0 ]
+"34 C:\Users\johnn\Desktop\Lab2Johns\main.c
+[v _debouncecheck debouncecheck `(uc  1 e 1 0 ]
+"39
+[v _inputmode inputmode `(v  1 e 1 0 ]
+"51
+[v _outputmode outputmode `(v  1 e 1 0 ]
+"58
+[v _main main `(v  1 e 1 0 ]
+"58 C:\Users\johnn\Desktop\Lab2Johns\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+"108
+[v _ADCC_StartConversion ADCC_StartConversion `(v  1 e 1 0 ]
+"126
+[v _ADCC_GetConversionResult ADCC_GetConversionResult `(ui  1 e 2 0 ]
+"291
+[v _ADCC_ISR ADCC_ISR `(v  1 e 1 0 ]
+"51 C:\Users\johnn\Desktop\Lab2Johns\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+"82 C:\Users\johnn\Desktop\Lab2Johns\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"90
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"49 C:\Users\johnn\Desktop\Lab2Johns\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+[s S318 . 1 `uc 1 INTEDG 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"356 C:\Program Files (x86)\Microchip\xc8\v1.38\include\pic16f18857.h
+[u S323 . 1 `S318 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES323  1 e 1 @11 ]
+[s S376 . 1 `uc 1 RA0 1 0 :1:0 
+`uc 1 RA1 1 0 :1:1 
+`uc 1 RA2 1 0 :1:2 
+`uc 1 RA3 1 0 :1:3 
+`uc 1 RA4 1 0 :1:4 
+`uc 1 RA5 1 0 :1:5 
+`uc 1 RA6 1 0 :1:6 
+`uc 1 RA7 1 0 :1:7 
+]
+"392
+[u S385 . 1 `S376 1 . 1 0 ]
+[v _PORTAbits PORTAbits `VES385  1 e 1 @12 ]
+[s S409 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 RC3 1 0 :1:3 
+`uc 1 RC4 1 0 :1:4 
+`uc 1 RC5 1 0 :1:5 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+"514
+[u S418 . 1 `S409 1 . 1 0 ]
+[v _PORTCbits PORTCbits `VES418  1 e 1 @14 ]
+"578
+[v _TRISA TRISA `VEuc  1 e 1 @17 ]
+"639
+[v _TRISB TRISB `VEuc  1 e 1 @18 ]
+"700
+[v _TRISC TRISC `VEuc  1 e 1 @19 ]
+"761
+[v _LATA LATA `VEuc  1 e 1 @22 ]
+"822
+[v _LATB LATB `VEuc  1 e 1 @23 ]
+"883
+[v _LATC LATC `VEuc  1 e 1 @24 ]
+"1514
+[v _ADRESL ADRESL `VEuc  1 e 1 @140 ]
+"1533
+[v _ADRESH ADRESH `VEuc  1 e 1 @141 ]
+"1545
+[v _ADPREVL ADPREVL `VEuc  1 e 1 @142 ]
+"1614
+[v _ADPREVH ADPREVH `VEuc  1 e 1 @143 ]
+"1689
+[v _ADACCL ADACCL `VEuc  1 e 1 @144 ]
+"1758
+[v _ADACCH ADACCH `VEuc  1 e 1 @145 ]
+"1827
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @147 ]
+[s S74 . 1 `uc 1 ADGO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM 1 0 :2:2 
+`uc 1 ADCS 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 ADCONT 1 0 :1:6 
+`uc 1 ADON 1 0 :1:7 
+]
+"1858
+[s S82 . 1 `uc 1 DONE 1 0 :1:0 
+]
+[s S84 . 1 `uc 1 nDONE 1 0 :1:0 
+]
+[s S86 . 1 `uc 1 GO 1 0 :1:0 
+`uc 1 . 1 0 :1:1 
+`uc 1 ADFM0 1 0 :1:2 
+`uc 1 ADFM1 1 0 :1:3 
+]
+[s S91 . 1 `uc 1 GO_nDONE 1 0 :1:0 
+]
+[u S93 . 1 `S74 1 . 1 0 `S82 1 . 1 0 `S84 1 . 1 0 `S86 1 . 1 0 `S91 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES93  1 e 1 @147 ]
+"1917
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @148 ]
+[s S214 . 1 `uc 1 ADDSEN 1 0 :1:0 
+`uc 1 . 1 0 :4:1 
+`uc 1 ADGPOL 1 0 :1:5 
+`uc 1 ADIPEN 1 0 :1:6 
+`uc 1 ADPPOL 1 0 :1:7 
+]
+"1931
+[u S220 . 1 `S214 1 . 1 0 ]
+[v _ADCON1bits ADCON1bits `VES220  1 e 1 @148 ]
+"1955
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @149 ]
+[s S150 . 1 `uc 1 ADMD 1 0 :3:0 
+`uc 1 ADACLR 1 0 :1:3 
+`uc 1 ADCRS 1 0 :3:4 
+`uc 1 ADPSIS 1 0 :1:7 
+]
+"1977
+[s S155 . 1 `uc 1 ADMD0 1 0 :1:0 
+`uc 1 ADMD1 1 0 :1:1 
+`uc 1 ADMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCRS0 1 0 :1:4 
+`uc 1 ADCRS1 1 0 :1:5 
+`uc 1 ADCRS2 1 0 :1:6 
+]
+[u S163 . 1 `S150 1 . 1 0 `S155 1 . 1 0 ]
+[v _ADCON2bits ADCON2bits `VES163  1 e 1 @149 ]
+"2031
+[v _ADCON3 ADCON3 `VEuc  1 e 1 @150 ]
+[s S121 . 1 `uc 1 ADTMD0 1 0 :1:0 
+`uc 1 ADTMD1 1 0 :1:1 
+`uc 1 ADTMD2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ADCALC0 1 0 :1:4 
+`uc 1 ADCALC1 1 0 :1:5 
+`uc 1 ADCALC2 1 0 :1:6 
+]
+"2052
+[s S129 . 1 `uc 1 ADTMD 1 0 :3:0 
+`uc 1 ADSOI 1 0 :1:3 
+`uc 1 ADCALC 1 0 :3:4 
+]
+[u S133 . 1 `S121 1 . 1 0 `S129 1 . 1 0 ]
+[v _ADCON3bits ADCON3bits `VES133  1 e 1 @150 ]
+"2101
+[v _ADSTAT ADSTAT `VEuc  1 e 1 @151 ]
+[s S182 . 1 `uc 1 ADSTAT 1 0 :3:0 
+`uc 1 ADMACT 1 0 :1:3 
+`uc 1 ADMATH 1 0 :1:4 
+`uc 1 ADLTHR 1 0 :1:5 
+`uc 1 ADUTHR 1 0 :1:6 
+`uc 1 ADAOV 1 0 :1:7 
+]
+"2121
+[s S189 . 1 `uc 1 ADSTAT0 1 0 :1:0 
+`uc 1 ADSTAT1 1 0 :1:1 
+`uc 1 ADSTAT2 1 0 :1:2 
+]
+[u S193 . 1 `S182 1 . 1 0 `S189 1 . 1 0 ]
+[v _ADSTATbits ADSTATbits `VES193  1 e 1 @151 ]
+"2170
+[v _ADCLK ADCLK `VEuc  1 e 1 @152 ]
+"2227
+[v _ADACT ADACT `VEuc  1 e 1 @153 ]
+"2278
+[v _ADREF ADREF `VEuc  1 e 1 @154 ]
+"2318
+[v _ADCAP ADCAP `VEuc  1 e 1 @155 ]
+"2369
+[v _ADPRE ADPRE `VEuc  1 e 1 @156 ]
+"2438
+[v _ADACQ ADACQ `VEuc  1 e 1 @157 ]
+"2507
+[v _ADPCH ADPCH `VEuc  1 e 1 @158 ]
+"2564
+[v _ADCNT ADCNT `VEuc  1 e 1 @268 ]
+"2633
+[v _ADRPT ADRPT `VEuc  1 e 1 @269 ]
+"2708
+[v _ADLTHL ADLTHL `VEuc  1 e 1 @270 ]
+"2777
+[v _ADLTHH ADLTHH `VEuc  1 e 1 @271 ]
+"2852
+[v _ADUTHL ADUTHL `VEuc  1 e 1 @272 ]
+"2921
+[v _ADUTHH ADUTHH `VEuc  1 e 1 @273 ]
+"2996
+[v _ADSTPTL ADSTPTL `VEuc  1 e 1 @274 ]
+"3065
+[v _ADSTPTH ADSTPTH `VEuc  1 e 1 @275 ]
+"3140
+[v _ADFLTRL ADFLTRL `VEuc  1 e 1 @276 ]
+"3209
+[v _ADFLTRH ADFLTRH `VEuc  1 e 1 @277 ]
+"3284
+[v _ADERRL ADERRL `VEuc  1 e 1 @278 ]
+"3353
+[v _ADERRH ADERRH `VEuc  1 e 1 @279 ]
+[s S38 . 1 `uc 1 ADIF 1 0 :1:0 
+`uc 1 ADTIF 1 0 :1:1 
+`uc 1 . 1 0 :4:2 
+`uc 1 CSWIF 1 0 :1:6 
+`uc 1 OSFIF 1 0 :1:7 
+]
+"19423
+[u S44 . 1 `S38 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES44  1 e 1 @1805 ]
+[s S53 . 1 `uc 1 ADIE 1 0 :1:0 
+`uc 1 ADTIE 1 0 :1:1 
+`uc 1 . 1 0 :4:2 
+`uc 1 CSWIE 1 0 :1:6 
+`uc 1 OSFIE 1 0 :1:7 
+]
+"19836
+[u S59 . 1 `S53 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES59  1 e 1 @1815 ]
+"21518
+[v _OSCCON1 OSCCON1 `VEuc  1 e 1 @2189 ]
+"21656
+[v _OSCCON3 OSCCON3 `VEuc  1 e 1 @2191 ]
+"21695
+[v _OSCSTAT OSCSTAT `VEuc  1 e 1 @2192 ]
+"21751
+[v _OSCEN OSCEN `VEuc  1 e 1 @2193 ]
+"21801
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @2194 ]
+"21858
+[v _OSCFRQ OSCFRQ `VEuc  1 e 1 @2195 ]
+"30783
+[v _ANSELA ANSELA `VEuc  1 e 1 @7992 ]
+"30844
+[v _WPUA WPUA `VEuc  1 e 1 @7993 ]
+"31393
+[v _ANSELB ANSELB `VEuc  1 e 1 @8003 ]
+"31454
+[v _WPUB WPUB `VEuc  1 e 1 @8004 ]
+"32003
+[v _ANSELC ANSELC `VEuc  1 e 1 @8014 ]
+"32064
+[v _WPUC WPUC `VEuc  1 e 1 @8015 ]
+"34736
+"34736
+[v _LATA1 LATA1 `VEb  1 e 0 @177 ]
+"34770
+[v _LATC2 LATC2 `VEb  1 e 0 @194 ]
+"34772
+[v _LATC3 LATC3 `VEb  1 e 0 @195 ]
+"34774
+[v _LATC4 LATC4 `VEb  1 e 0 @196 ]
+"34776
+[v _LATC5 LATC5 `VEb  1 e 0 @197 ]
+"37706
+[v _TRISC2 TRISC2 `VEb  1 e 0 @154 ]
+"37708
+[v _TRISC3 TRISC3 `VEb  1 e 0 @155 ]
+"37710
+[v _TRISC4 TRISC4 `VEb  1 e 0 @156 ]
+"37712
+[v _TRISC5 TRISC5 `VEb  1 e 0 @157 ]
+"30 C:\Users\johnn\Desktop\Lab2Johns\main.c
+[v _operation operation `uc  1 e 1 0 ]
+"31
+[v _strobe_last strobe_last `uc  1 e 1 0 ]
+"58
+[v _main main `(v  1 e 1 0 ]
+{
+"64
+[v main@value value `i  1 a 2 4 ]
+"195
+} 0
+"51
+[v _outputmode outputmode `(v  1 e 1 0 ]
+{
+"57
+} 0
+"39
+[v _inputmode inputmode `(v  1 e 1 0 ]
+{
+"49
+} 0
+"34
+[v _debouncecheck debouncecheck `(uc  1 e 1 0 ]
+{
+"38
+} 0
+"82 C:\Users\johnn\Desktop\Lab2Johns\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"88
+} 0
+"49 C:\Users\johnn\Desktop\Lab2Johns\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"68
+} 0
+"90 C:\Users\johnn\Desktop\Lab2Johns\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"106
+} 0
+"58 C:\Users\johnn\Desktop\Lab2Johns\mcc_generated_files/adcc.c
+[v _ADCC_Initialize ADCC_Initialize `(v  1 e 1 0 ]
+{
+"106
+} 0
+"108
+[v _ADCC_StartConversion ADCC_StartConversion `(v  1 e 1 0 ]
+{
+[v ADCC_StartConversion@channel channel `E13465  1 a 1 wreg ]
+[v ADCC_StartConversion@channel channel `E13465  1 a 1 wreg ]
+"111
+[v ADCC_StartConversion@channel channel `E13465  1 a 1 1 ]
+"118
+} 0
+"126
+[v _ADCC_GetConversionResult ADCC_GetConversionResult `(ui  1 e 2 0 ]
+{
+"130
+} 0
+"51 C:\Users\johnn\Desktop\Lab2Johns\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `II(v  1 e 1 0 ]
+{
+"62
+} 0
+"291 C:\Users\johnn\Desktop\Lab2Johns\mcc_generated_files/adcc.c
+[v _ADCC_ISR ADCC_ISR `(v  1 e 1 0 ]
+{
+"295
+} 0
